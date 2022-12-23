@@ -1,0 +1,19 @@
+{
+  "type": "mysql",
+  "host": "db.phamduy.me",
+  "port": 3306,
+  "username": "gjmhqdqv_testdb",
+  "password": "1234qwer",
+  "database": "gjmhqdqv_testdb",
+  "synchronize": false,
+  "logging": false,
+  "entities": [
+    "dist/**/*.entity{.ts,.js}"
+  ],
+  "migrations": [
+    "dist/migrations/*{.ts,.js}"
+  ],
+  "cli": {
+    "migrationsDir": "./migrations"
+  }
+}
